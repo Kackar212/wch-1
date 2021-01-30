@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masteralb Creative</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1 class="logo">
+    <img 
+      src="./img/masteralb-logo-top.png" 
+      alt="masteralb creative, www.masteralb.com"
+      class="logo__img"
+    >
+  </h1>
+  <main class="main">
+    <section class="section">
+      <h2 class="section__heading">Register Form</h2>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/user.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="username" id="username">
+            <label for="username" class="form__label form__label--placeholder">
+              Username
+            </label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/lock.png" alt="" class="label__icon">
+            </span>
+            <input type="password" class="form__input" name="password" id="password">
+            <label for="password" class="form__label form__label--placeholder">Password</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/lock.png" alt="" class="label__icon">
+            </span>
+            <input type="password" class="form__input" name="cofirm_password" id="confirm_password">
+            <label for="confirm_password" class="form__label form__label--placeholder">Confirm password</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/envelope.png" alt="" class="label__icon">
+            </span>
+            <input type="email" class="form__input" name="email" id="email">
+            <label for="email" class="form__label form__label--placeholder">Email</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/map-marker.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="location" id="location">
+            <label for="location" class="form__label form__label--placeholder">Location</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field form__field--checkbox">
+            <input type="checkbox" name="term" id="term" class="form__input form__input--checkbox">
+            <label for="term" class="form__label form__label--checkbox">
+              <span class="form__label__content">I have read and accept the terms of use</span>
+              <span class="fake-checkbox"></span>
+            </label>
+          </div>
+          <button type="submit" class="form__button">Sign Up</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Send Email</h2>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/user.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="name" id="name">
+            <label for="name" class="form__label form__label--placeholder">
+              Your Name
+            </label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/envelope.png" alt="" class="label__icon">
+            </span>
+            <input type="email" class="form__input" name="email" id="email">
+            <label for="email" class="form__label form__label--placeholder">Your Email</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <textarea class="form__input form__input--textarea" name="message" id="message"></textarea>
+            <label for="message" class="form__label form__label--placeholder">Type your message...</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field form__field--checkbox">
+            <input type="checkbox" name="email_copy" id="email_copy" class="form__input form__input--checkbox">
+            <label for="email_copy" class="form__label form__label--checkbox">
+              <span class="form__label__content">Send a copy to my Email</span>
+              <span class="fake-checkbox"></span>
+            </label>
+          </div>
+          <button type="submit" class="form__button">Send Email</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Sign In</h2>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/user.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="username" id="login__username">
+            <label for="login__username" class="form__label form__label--placeholder">
+              Username
+            </label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/lock.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="password" id="login_password">
+            <label for="login_password" class="form__label form__label--placeholder">Password</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field form__field--row">
+            <div class="form__field form__field--checkbox">
+              <input type="checkbox" name="remember_me" id="remember_me" class="form__input form__input--checkbox">
+              <label for="remember_me" class="form__label form__label--checkbox">
+                <span class="form__label__content">Remember me</span>
+                <span class="fake-checkbox"></span>
+              </label>
+            </div>
+            <button type="submit" class="form__button">Sign In</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Recover Form</h2>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/user.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="recover_email" id="recover_email">
+            <label for="recover_email" class="form__label form__label--placeholder">
+              Enter your Email
+            </label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/phone.png" alt="" class="label__icon">
+            </span>
+            <input type="tel" class="form__input" name="number" id="number">
+            <label for="number" class="form__label form__label--placeholder">Enter your Phone number</label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field form__field--row">
+            <button type="submit" class="form__button">Send</button>
+            <button type="submit" class="form__button" disabled>Done</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__heading">Subscribe Form</h2>
+      <div class="form-container">
+        <form action="" class="form">
+          <div class="form__field">
+            <span class="icon">
+              <img src="./img/envelope.png" alt="" class="label__icon">
+            </span>
+            <input type="text" class="form__input" name="subscribe_email" id="subscribe_email">
+            <label for="subscribe_email" class="form__label form__label--placeholder">
+              Enter your Email
+            </label>
+            <div class="input-outline"></div>
+          </div>
+          <div class="form__field form__field--row">
+            <button type="submit" class="form__button">Subscribe</button>
+            <button type="submit" class="form__button form__button--cancel">No, thanks</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <img src="./img/masteralb-logo-bottom.png" alt="">
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>
